@@ -1,0 +1,16 @@
+[
+{
+  "modid": "togglesprint",
+  "name": "ToggleSprint",
+  "description": "Allows you to Toggle your sprint status",
+  "version": "1.0.0",
+  "mcversion": "1.12.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["guyman70718", "Wardo"],
+  "credits": "Wardo for the base mod for 1.8.9, guyman70718 for updating to 1.12.2 and adding a UI",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
