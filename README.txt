@@ -1,62 +1,62 @@
--------------------------------------------
-Source installation information for modders
--------------------------------------------
-This code follows the Minecraft Forge installation methodology. It will apply
-some small patches to the vanilla MCP source code, giving you and it access 
-to some of the data and functions you need to build a successful mod.
+# ToggleSprint Mod for 1.12.2
 
-Note also that the patches are built against "unrenamed" MCP source code (aka
-srgnames) - this means that you will not be able to read them directly against
-normal code.
+`Version 1.0.0`
 
-Source pack installation information:
+## ToggleSprint mod for Minecraft Forge 1.12.2
 
-Standalone source installation
-==============================
+Togglesprint is a Minecraft Forge mod for 1.12.2. It is a simple mod that has commands such as `/ts toggle` to toggle the mod.
 
-See the Forge Documentation online for more detailed instructions:
-http://mcforge.readthedocs.io/en/latest/gettingstarted/
+## Download
 
-Step 1: Open your command-line and browse to the folder where you extracted the zip file.
+Head over to the releases tab, or go to [this link](https://github.com/Wardo01/ToggleSprintMod/releases).
 
-Step 2: Once you have a command window up in the folder that the downloaded material was placed, type:
+## Command
 
-Windows: "gradlew setupDecompWorkspace"
-Linux/Mac OS: "./gradlew setupDecompWorkspace"
+- The command for the mod is `/togglesprint`. `/ts` also works as an alias.
+- When using commands, do `/togglesprint` + (argument), or `/ts` + (argument).
+  Example: `/togglesprint toggle` (toggle), `/ts on` (enable), `/ts d` (disable), etc.
 
-Step 3: After all that finished, you're left with a choice.
-For eclipse, run "gradlew eclipse" (./gradlew eclipse if you are on Mac/Linux)
+### Arguments
 
-If you prefer to use IntelliJ, steps are a little different.
-1. Open IDEA, and import project.
-2. Select your build.gradle file and have it import.
-3. Once it's finished you must close IntelliJ and run the following command:
+- Toggling the mod on and off:
+  - `toggle`
+  - `t`
+- Enabling the mod:
+  - `on`
+  - `enable`
+  - `e`
+- Disabling the mod:
+  - `off`
+  - `disable`
+  - `d`
 
-"gradlew genIntellijRuns" (./gradlew genIntellijRuns if you are on Mac/Linux)
+### Examples
 
-Step 4: The final step is to open Eclipse and switch your workspace to /eclipse/ (if you use IDEA, it should automatically start on your project)
+To toggle the mod, do one of the following commands:
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can run "gradlew --refresh-dependencies" to refresh the local cache. "gradlew clean" to reset everything {this does not affect your code} and then start the processs again.
+- `/togglesprint toggle`
+- `/togglesprint t`
+- `/ts toggle`
+- `/ts t`
 
-Should it still not work, 
-Refer to #ForgeGradle on EsperNet for more information about the gradle environment.
+The same command structure applies to all other arguments.
 
-Tip:
-If you do not care about seeing Minecraft's source code you can replace "setupDecompWorkspace" with one of the following:
-"setupDevWorkspace": Will patch, deobfuscate, and gather required assets to run minecraft, but will not generate human readable source code.
-"setupCIWorkspace": Same as Dev but will not download any assets. This is useful in build servers as it is the fastest because it does the least work.
+## Building / contributing guidelines
 
-Tip:
-When using Decomp workspace, the Minecraft source code is NOT added to your workspace in a editable way. Minecraft is treated like a normal Library. Sources are there for documentation and research purposes and usually can be accessed under the 'referenced libraries' section of your IDE.
+The source code for the mod follows the [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html). You can use [Google's Java Format plugin for IntelliJ](https://plugins.jetbrains.com/plugin/8527-google-java-format).
 
-Forge source installation
-=========================
-MinecraftForge ships with this code and installs it as part of the forge
-installation process, no further action is required on your part.
+Build the project using [IntelliJ Idea](https://www.jetbrains.com/idea/download/).
 
-LexManos' Install Video
-=======================
-https://www.youtube.com/watch?v=8VEdtQLuLO0&feature=youtu.be
+Use [Semantic Versioning 2.0.0](https://semver.org/) for naming versions.
 
-For more details update more often refer to the Forge Forums:
-http://www.minecraftforge.net/forum/index.php/topic,14048.0.html
+Use `Line Feed` as the end of line (EOL) character.
+
+Commit changes to the `develop` branch, then do `git checkout master` and `git merge --no-ff develop` to merge the branches.
+
+## Known bugs
+
+ - At the moment, none. Please report any on the issue tracker.
+
+## Author
+
+guyman70718 and Wardo
