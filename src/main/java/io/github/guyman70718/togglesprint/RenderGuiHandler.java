@@ -1,6 +1,6 @@
-package ml.wardo.togglesprint;
+package io.github.guyman70718.togglesprint;
 
-import ml.wardo.togglesprint.config.ToggleSprintConfig;
+import io.github.guyman70718.togglesprint.config.ToggleSprintConfig;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.ScaledResolution;
 import net.minecraft.client.renderer.GlStateManager;

@@ -16,25 +16,21 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package ml.wardo.togglesprint;
+package io.github.guyman70718.togglesprint;
 
-import javafx.scene.control.Toggle;
-import ml.wardo.togglesprint.commands.Commands;
-import ml.wardo.togglesprint.config.ToggleSprintConfig;
-import ml.wardo.togglesprint.events.Events;
-import ml.wardo.togglesprint.util.Reference;
+import io.github.guyman70718.togglesprint.commands.Commands;
+import io.github.guyman70718.togglesprint.events.Events;
+import io.github.guyman70718.togglesprint.util.Reference;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.client.ClientCommandHandler;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.common.config.Configuration;
-import net.minecraftforge.fml.common.FMLCommonHandler;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
-import sun.security.krb5.Config;
 
 import java.io.File;
 

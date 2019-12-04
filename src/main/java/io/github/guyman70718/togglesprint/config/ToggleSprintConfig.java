@@ -16,17 +16,11 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package ml.wardo.togglesprint.config;
+package io.github.guyman70718.togglesprint.config;
 
-import ml.wardo.togglesprint.ToggleSprint;
-import ml.wardo.togglesprint.util.Reference;
+import io.github.guyman70718.togglesprint.ToggleSprint;
+import io.github.guyman70718.togglesprint.util.Reference;
 import net.minecraftforge.common.config.Config;
-import net.minecraftforge.common.config.ConfigManager;
-import net.minecraftforge.common.config.Property;
-import net.minecraftforge.fml.client.event.ConfigChangedEvent;
-import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
-
-import java.sql.Ref;
 
 /** Stores settings for ToggleSprint */
 @Config(modid = Reference.MOD_ID)

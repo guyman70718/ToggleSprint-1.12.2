@@ -16,11 +16,10 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package ml.wardo.togglesprint.events;
+package io.github.guyman70718.togglesprint.events;
 
-import ml.wardo.togglesprint.config.ToggleSprintConfig;
-import ml.wardo.togglesprint.util.Reference;
-import net.java.games.input.Component;
+import io.github.guyman70718.togglesprint.config.ToggleSprintConfig;
+import io.github.guyman70718.togglesprint.util.Reference;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.ScaledResolution;
 import net.minecraft.client.settings.KeyBinding;
@@ -29,7 +28,6 @@ import net.minecraftforge.common.config.ConfigManager;
 import net.minecraftforge.fml.client.event.ConfigChangedEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.gameevent.TickEvent.ClientTickEvent;
-import net.minecraftforge.fml.common.gameevent.InputEvent.KeyInputEvent;
 
 /** Events for the mod */
 public class Events {

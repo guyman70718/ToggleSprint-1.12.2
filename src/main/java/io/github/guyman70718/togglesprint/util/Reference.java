@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package ml.wardo.togglesprint.util;
+package io.github.guyman70718.togglesprint.util;
 
 /** Mod information */
 public class Reference {

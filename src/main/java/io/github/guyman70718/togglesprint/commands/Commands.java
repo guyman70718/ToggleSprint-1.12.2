@@ -16,9 +16,9 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package ml.wardo.togglesprint.commands;
+package io.github.guyman70718.togglesprint.commands;
 
-import ml.wardo.togglesprint.config.ToggleSprintConfig;
+import io.github.guyman70718.togglesprint.config.ToggleSprintConfig;
 import net.minecraft.command.CommandBase;
 import net.minecraft.command.CommandException;
 import net.minecraft.command.ICommandSender;
